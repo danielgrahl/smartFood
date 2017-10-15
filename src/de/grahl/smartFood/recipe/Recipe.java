@@ -4,7 +4,10 @@ import java.net.URI;
 import java.util.Collection;
 import java.util.List;
 
-public class Recipe {
+import de.grahl.smartFood.constraint.Constrainable;
+
+public class Recipe implements Constrainable
+{
 
 	private int id;
 	private String name;
